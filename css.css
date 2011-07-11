@@ -1,0 +1,114 @@
+﻿body
+{
+	background-color : #dddddd;
+	color : black;
+	font-family : "Times New Roman", Times, serif;
+	overflow : auto;
+}
+/*-------
+---outline box*/
+#container 
+{
+	background-color : white;
+	border : 2px solid #999999;
+	border-radius : 5px;
+	-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+	-webkit-border-radius:5px; /* Safari */
+	-moz-box-shadow:1px 1px 1px #BFBFBF; /* Firefox 3.6 and earlier */
+	-webkit-box-shadow:1px 1px 1px #BFBFBF; /* Safari */
+	box-shadow : 1px 1px 1px #BFBFBF;
+	margin : auto;
+	line-height : 150%;
+	overflow : hidden;
+	padding : 20px;
+	width : 1070px;
+}
+
+/*------*/
+
+#header
+{
+	background-image : url('header.jpg');
+	background-repeat : no-repeat; 
+	border : 1px solid black;
+    height : auto;
+	margin-top : 34px;
+	padding : 65px;
+	width : auto;
+}
+
+#beginning
+{
+    background-color : #fbffff;
+    border : 1px solid #cccccc;
+	float : left;
+	padding : 4px 10px;
+}
+
+#content
+{
+    border : 1px solid #cccccc;
+	border-bottom : 1px ;
+	float : left;
+    margin-top : 10px;
+	width : 680px;
+}
+
+img
+{
+    border : 1px solid #cccccc;
+	-moz-box-shadow: 2px 2px 4px #999999; /* Firefox 3.6 and earlier */
+    -webkit-box-shadow: 2px 2px 4px #999999; /* Safari and Chrome */
+    box-shadow : 2px 2px 4px #999999;
+    float : left;
+	margin-right : 15px;
+	margin-top : 10px;
+	margin-left : 5px;
+}
+
+h2{color : #000066;}
+h4{color : #999999;font-weight : lighter;letter-spacing : 2px;}
+
+.para
+{
+   border-bottom : 1px solid #cccccc;
+   padding : 10px 10px; 
+}
+
+.aside
+{
+    color : #333333;
+	float : left;
+	font-size : 0.865em;
+    padding : 20px 10px;
+	width : 150px;
+}
+
+.altSearch
+{
+    border-top : 1px solid black;
+	border-left : 1px solid black;
+	border-bottom : 1px solid #999999;
+	border-right : 1px solid #999999;
+	-moz-box-shadow: 2px 2px 6px #999999 inset; /* Firefox 3.6 and earlier */
+    -webkit-box-shadow: 2px 2px 6px #999999 inset; /* Safari and Chrome */
+    box-shadow : 2px 2px 6px #999999 inset;
+	width : 120px;
+	height : 25px;
+}
+
+.altPicture
+{
+    float : right;
+}
+
+a:link{text-decoration : none;color : #000066;}
+
+#footer
+{
+    float : left;
+    padding : 15px;
+    background-color : #f7f7f7;
+    border-top : 2px solid #eeeeee;	
+	width : 97%;
+}
